@@ -2,6 +2,10 @@
 <html>
 <head>
 	<title>Project 1</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -12,228 +16,256 @@
 	<link rel="stylesheet" href="./assets/css/on-off-switch.css">
 </head>
 <body id="background">
+
+<!-- NavBar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   		<a class="navbar-brand" href="#"><img src="./assets/images/Logo.png" alt="Logo" id="logo"></a>
 	 	<div id="navbarColor01" id="menu-outer">
 	 		<div class="table">
-	    	<ul id="horizontal-list">
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Entry.png" alt="Entry" class="room-image"></button>Entry</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/LivingRoom.png" alt="LivingRoom" class="room-image"></button>LvingRoom</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/DiningRoom.png" alt="DiningRoom" class="room-image"></button>DiningRoom</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Kitchen.png" alt="Kitchen" class="room-image"></button>Kitchen</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom1.png" alt="Bedroom1" class="room-image"></button>BedRoom1</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom2.png" alt="Bedroom2" class="room-image"></button>BedRoom2</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom1.png" alt="Bathroom1" class="room-image"></button>Bathroom1</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom2.png" alt="Bathroom2" class="room-image"></button>Bathroom2</li>
-	      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Laundry.png" alt="Laundry" class="room-image"></button>Stairs/Halls</li>
-	    	</ul>
+		    	<ul id="horizontal-list">
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Entry.png" alt="Entry" class="room-image"></button>Entry</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/LivingRoom.png" alt="LivingRoom" class="room-image"></button>LvingRoom</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/DiningRoom.png" alt="DiningRoom" class="room-image"></button>DiningRoom</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Kitchen.png" alt="Kitchen" class="room-image"></button>Kitchen</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom1.png" alt="Bedroom1" class="room-image"></button>BedRoom1</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom2.png" alt="Bedroom2" class="room-image"></button>BedRoom2</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom1.png" alt="Bathroom1" class="room-image"></button>Bathroom1</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom2.png" alt="Bathroom2" class="room-image"></button>Bathroom2</li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Laundry.png" alt="Laundry" class="room-image"></button>Stairs/Halls</li>
+		    	</ul>
 	    	</div>
 	  	</div>
 	</nav>
-	
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Walls<h3>
+
+<!-- PropertyID -->
+<!-- Button Tool Bar -->
+	<div class="jumbotron">
+		<div class="property-id">
+			<h3>Sample Property</h3>
+		</div>
+		<div>
+			<img src="./assets/images/SampleProperty.jpg" class="sample-property-img">
+		</div>
+			 <div class="table">
+		    	<ul id="horizontal-list">
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Entry.png" alt="Entry" class="room-image">Entry</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/LivingRoom.png" alt="LivingRoom" class="room-image"> LvingRoom</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/DiningRoom.png" alt="DiningRoom" class="room-image"> DiningRoom</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Kitchen.png" alt="Kitchen" class="room-image"> Kitchen</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom1.png" alt="Bedroom1" class="room-image"> BedRoom1</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bedroom2.png" alt="Bedroom2" class="room-image"> BedRoom2</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom1.png" alt="Bathroom1" class="room-image"> Bathroom1</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Bathroom2.png" alt="Bathroom2" class="room-image"> Bathroom2</button></li>
+		      		<li class="nav-item"><button type="button" class="btn btn-outline-primary"><img src="./assets/images/Laundry.png" alt="Laundry" class="room-image"> Stairs/Halls</button></li>
+		    	</ul>
+	    	</div>
+	</div>
+
+<!-- 	Survey Contianer-->	
+	<div id="entry-container">
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Walls<h3>
+				</div>
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom1" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom2" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom3" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom4" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
+				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom1" value="0">
-					<div><p>Clean</p></div>	
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Ceiling<h3>
 				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom2" value="0">
-					<div><p>Undamaged</p></div>	
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom5" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom6" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom7" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom8" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
 				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom3" value="0">
-					<div><p>Working</p></div>	
+			</div>
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Flooring<h3>
 				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom4" value="0">
-					<div><p>Tenant Agrees</p></div>	
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom9" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom10" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom11" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom12" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
 				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
+			</div>
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Baseboards<h3>
+				</div>
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom13" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom14" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom15" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom16" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Lights<h3>
+				</div>
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom17" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom18" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom19" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom20" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Power Outlets<h3>
+				</div>
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom21" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom22" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom23" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom24" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-contianer">
+			<div class="content">
+				<div>
+					<h3>Fan<h3>
+				</div>
+				<div class="row">
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom25" value="0">
+						<div><p>Clean</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom26" value="0">
+						<div><p>Undamaged</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom27" value="0">
+						<div><p>Working</p></div>	
+					</div>
+					<div class="col-md-1">
+						<input type="hidden" class="on-off-switch-custom28" value="0">
+						<div><p>Tenant Agrees</p></div>	
+					</div>
+					<div class="col-md-1" class="add-image">
+						<p>add image????</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Ceiling<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom5" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom6" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom7" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom8" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Flooring<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom9" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom10" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom11" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom12" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Baseboards<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom13" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom14" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom15" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom16" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Lights<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom17" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom18" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom19" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom20" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Power Outlets<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom21" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom22" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom23" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom24" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="main-contianer">
-		<div class="content">
-			<div>
-				<h3>Fan<h3>
-			</div>
-			<div class="row">
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom25" value="0">
-					<div><p>Clean</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom26" value="0">
-					<div><p>Undamaged</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom27" value="0">
-					<div><p>Working</p></div>	
-				</div>
-				<div class="col-md-1">
-					<input type="hidden" class="on-off-switch-custom28" value="0">
-					<div><p>Tenant Agrees</p></div>	
-				</div>
-				<div class="col-md-1" class="add-image">
-					<p>add image????</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
 
 
     <script type="text/javascript">
