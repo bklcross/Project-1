@@ -11,10 +11,15 @@
 	height: 20px;
 }
 
-.nav-item
+.nav-link
 {
 	color: white;
-	font-size: 12px;
+	font-size: 20px;
+}
+
+.nav-item
+{
+	align-items: right;
 }
 
 #menu-outer
@@ -144,9 +149,6 @@ input
 {
 	text-align: right;
 }
-
-
-
 
 
 
